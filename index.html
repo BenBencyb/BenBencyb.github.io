@@ -58,7 +58,7 @@
         </a>
         <hgroup class="introduce">
           <h5 class="nickname">小奇冰</h5>
-          <a href="mailto:634206017@qq.com" title="634206017@qq.com" class="mail">634206017@qq.com</a>
+          <a href="mailto:524016463@qq.com" title="524016463@qq.com" class="mail">524016463@qq.com</a>
         </hgroup>
       </div>
     </div>
@@ -75,35 +75,28 @@
             <li class="waves-block waves-effect">
               <a href="/archives">
                 <i class="icon icon-lg icon-archives"></i>
-                Archives
+                归档
               </a>
             </li>
         
             <li class="waves-block waves-effect">
               <a href="/tags">
                 <i class="icon icon-lg icon-tags"></i>
-                Tags
+                标签
               </a>
             </li>
         
             <li class="waves-block waves-effect">
               <a href="/categories">
                 <i class="icon icon-lg icon-th-list"></i>
-                Categories
+                分类
               </a>
             </li>
         
             <li class="waves-block waves-effect">
-              <a href="https://github.com/yscoder" target="_blank">
+              <a href="https://github.com/BenBencyb" target="_blank">
                 <i class="icon icon-lg icon-github"></i>
                 Github
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="http://www.weibo.com/ysweb" target="_blank">
-                <i class="icon icon-lg icon-weibo"></i>
-                Weibo
               </a>
             </li>
         
@@ -203,6 +196,66 @@ Qu...
 
         </li>
     
+        <li class="post-list-item fade">
+            <article id="post-springBoot教程（一）" class="article-card article-type-post" itemprop="blogPost">
+
+    <div class="post-meta">
+        <time class="post-time" title="2017-10-18 21:28:13" datetime="2017-10-18T13:28:13.000Z" itemprop="datePublished">2017-10-18</time>
+
+        
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/后端/">后端</a></li></ul>
+
+
+
+    </div>
+
+    
+
+
+  
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="/2017/10/18/springBoot教程（一）/">Nginx 快速入门</a>
+    </h3>
+  
+
+
+
+
+    <div class="post-content" id="post-content" itemprop="postContent">
+
+    
+        
+                
+                    
+                    
+                
+                image
+            
+一、前言Nginx 是一个高性能的 Web 和反向代理服务器, 它具有有很多非常优越的特性。
+1.1 作为 Web 服务器相比 Apache，Nginx 使用更少的资源，支持更多的并发连接，体现更高的效率。能够支持高达 50,000 个并发连接数的响应，其使用 epoll and kqueue 作为开发模型。
+1.2 作为负载均衡服务器Nginx 既可以在内部直接支持 Rails 和 PHP，也可以支持作为 HTTP代理服务器 对外进行服务。Nginx 用 C 编写, 不论是系统资源开销还是 CPU 使用效率都比 Perlbal 要好的多。
+Nginx 安装非常的简单，配置文件 非常简洁（还能够支持perl语法），Bugs 非常少的服务器: Nginx 启动特别容易，并且几乎可以做到 7*24 不间断运行，即使运行数个月也不需要重新启动。
+二、安装2.1 添加仓库资源1vim /etc/yum.repos.d/nginx.repo
+添加如下内容：
+12345[nginx]name=nginx repobaseurl=http://nginx.org/packages/centos/7/$basearch/gpgcheck=0enabled=1
+注意 baseurl=http://nginx.org/packages/OS/OSRELEASE/$basearch/ 中 OS/OSRELEASE 表示系统和版本号，根据自己情况而定。
+    
+
+        <a href="/2017/10/18/springBoot教程（一）/" class="post-more waves-effect waves-button">
+            Continue reading...
+        </a>
+    </div>
+    
+    <div class="post-footer">
+        
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Nginx/">Nginx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/中间件/">中间件</a></li></ul>
+
+    </div>
+    
+</article>
+
+        </li>
+    
     </ul>
 
     
@@ -230,8 +283,10 @@ Qu...
         </p>
     </div>
     <div class="bottom">
-        <p><span>小奇冰 &copy; 2015 - 2018</span>
+        <p><span>小奇冰 &copy; 2018</span>
             <span>
+                
+                <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备18157558号-1</a><br>
                 
                 Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
             </span>
@@ -333,10 +388,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = '死鬼去哪里了！';
+            document.title = '我是小奇冰';
             clearTimeout(titleTime);
         } else {
-            document.title = '(つェ⊂)咦!又好了!';
+            document.title = '小奇冰博客';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);
