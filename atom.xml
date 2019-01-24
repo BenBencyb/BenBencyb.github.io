@@ -5,9 +5,9 @@
   <subtitle>我们所过的每个平凡的日常，也许就是连续发生的奇迹。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.fangwenfans.cn/"/>
+  <link href="http://www.fangwenfans.cn/"/>
   <updated>2019-01-24T06:42:39.085Z</updated>
-  <id>http://blog.fangwenfans.cn/</id>
+  <id>http://www.fangwenfans.cn/</id>
   
   <author>
     <name>小奇冰</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Markdown使用例子</title>
-    <link href="http://blog.fangwenfans.cn/2018/12/25/%E6%B5%8B%E8%AF%951/"/>
-    <id>http://blog.fangwenfans.cn/2018/12/25/测试1/</id>
+    <link href="http://www.fangwenfans.cn/2018/12/25/%E6%B5%8B%E8%AF%951/"/>
+    <id>http://www.fangwenfans.cn/2018/12/25/测试1/</id>
     <published>2018-12-25T08:22:06.000Z</published>
     <updated>2019-01-24T06:42:39.085Z</updated>
     
@@ -35,7 +35,7 @@
     </summary>
     
     
-      <category term="Markdown" scheme="http://blog.fangwenfans.cn/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://www.fangwenfans.cn/tags/Markdown/"/>
     
   </entry>
   
